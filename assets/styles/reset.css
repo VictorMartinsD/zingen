@@ -11,6 +11,9 @@
 * {
   margin: 0;
   padding: 0;
+  font: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* 3. Melhora a altura e o scroll do corpo */
@@ -20,8 +23,7 @@ body {
 }
 
 body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
 }
 
 /* 4. Faz as imagens serem responsivas por padrão */
@@ -35,25 +37,19 @@ svg {
 }
 
 /* 5. Remove estilos de lista e links */
-ul,
-ol {
+ul, ol,
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
+/* Importante: Use class: role="list" no HTML para manter a acessibilidade no Safari e garantir o reset em navegadores legados.*/
 
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* 6. Reseta fontes de formulários (que não herdam o body por padrão) */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-/* 7. Evita que textos fiquem muito grandes no mobile */
+/* 6. Evita que textos fiquem muito grandes no mobile */
 html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
