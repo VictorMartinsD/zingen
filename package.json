@@ -1,0 +1,20 @@
+{
+  "name": "zingen",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Victor Martins Dias <victormartinsjob@gmail.com> (https://github.com/VictorMartinsD)",
+  "description": "Landing page responsiva para o aplicativo Zingen, apresentando funcionalidades de IA para karaokê, planos de assinatura e links para download.",
+  "main": "index.html",
+  "scripts": {
+    "format": "prettier --write .",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{html,css,js}": "prettier --write"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "latest"
+  }
+}
