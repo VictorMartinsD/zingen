@@ -74,3 +74,15 @@ h3 {
   color: inherit; /*  Inherit the color from the parent element */
   transition: color 0.2s ease;
 }
+
+a:hover {
+  background: linear-gradient(
+    90deg,
+    var(--brand-color-secondary) 0%,
+    var(--brand-color-primary) 100%
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
