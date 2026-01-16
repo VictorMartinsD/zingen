@@ -57,7 +57,7 @@ Desenvolvido por [Victor Martins](https://github.com/VictorMartinsD) como parte 
 
 <div align="center">
   <a href="https://victormartinsd.github.io/zingen/#download">
-    <img src="https://img.shields.io/badge/Access%20Deploy-811?style=for-the-badge&logo=github&logoColor=white&color=F7B733" alt="Access Deploy">
+    <img src="https://img.shields.io/badge/Acessar%20Deploy-Github%20Pages-blue?style=for-the-badge" alt="Access Deploy">
   </a>
   <a href="https://www.figma.com/design/A1MKCXNlW8B8eXWZXZeFDA/LP-de-produto--Community-?node-id=3-811&t=VNLj1ACwvnQ2JG76-0">
     <img src="https://img.shields.io/badge/Figma%20Design-811?style=for-the-badge&logo=figma&logoColor=white&color=FC4A1A" alt="Figma Design">
