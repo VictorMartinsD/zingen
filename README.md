@@ -15,9 +15,9 @@
 * [Como rodar o projeto](#-como-rodar-o-projeto-localmente)
 
 ## 📌 Summary - English
-* [About the Project](#about-the-project-1)
+* [About the Project](#about-the-project)
 * [Technical Highlights](#technical-highlights)
-* [How to run the project](#-how-to-run-the-project-locally-1)
+* [How to run the project](#-how-to-run-the-project-locally)
 
 ## 🖼️ Preview
 <div align="center">
