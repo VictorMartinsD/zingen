@@ -29,7 +29,7 @@
     color: var(--text-color-secondary);
   }
 
-  .btn {
+  & .btn {
     width: 100%;
   }
 

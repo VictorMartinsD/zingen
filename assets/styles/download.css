@@ -20,7 +20,7 @@
     .card {
       padding: 8.75rem 5rem;
 
-      & > div:nthchild(1) {
+      & > div:nth-child(1) {
         max-width: 40rem;
       }
 

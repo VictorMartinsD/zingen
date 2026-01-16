@@ -7,6 +7,7 @@ a.social {
 
   -webkit-background-clip: initial;
   background-clip: initial;
+  color: inherit;
 
   &[aria-label="tiktok"] {
     --bg-img: url(../../assets/img/icons/tiktok.svg);
